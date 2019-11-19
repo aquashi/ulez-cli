@@ -49,7 +49,7 @@ python --version
 git clone https://github.com/aquashi/ulez-cli.git
 ```
 
-2. You'll need to run the following commands in your shell to navigate to the cloned repo directory and then install the Requests library and its dependencies.
+2. You'll need to run the following commands in your shell to navigate to the cloned repo directory and then install the Requests library and its dependencies
 
 #### On Windows shells
 
@@ -65,7 +65,7 @@ cd path\to\ulez-cli
 python -m pip install -r requirements.txt
 ```
 
-The program should be ready to use now
+The program should be ready to use now but close and open your shell windows for good measure
 
 ---
 
@@ -96,7 +96,7 @@ For any further questions, feel free to [contact](#contact) me.
 
 ## Don't Bankrupt Me
 
-I've used an AWS API gateway to upload a working code example to this repo. I didn't want to expose my API credentials but I also want users to test this project with minimal setup however AWS isn't exactly free and my account does have quotas. If you're looking to use this program heavily or do a lot of testing, I'd suggest that you use your own TfL API keys. Sign up for free API credentials at [https://api.tfl.gov.uk/](https://api.tfl.gov.uk/)
+I've used an AWS API gateway to upload a working code example to this repo. I didn't want to expose my TfL API credentials but I also want users to test this project with minimal setup however AWS isn't exactly free and my account does have quotas. If you're looking to use this program heavily or do a lot of testing, I'd suggest that you use your own TfL API keys. Sign up for free API credentials at [https://api.tfl.gov.uk/](https://api.tfl.gov.uk/)
 
 Once you have your app id and app key, here's how to incorporate it into the Python program
 
